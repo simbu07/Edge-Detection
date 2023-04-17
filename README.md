@@ -37,7 +37,7 @@ import cv2
 import matplotlib.pyplot as plt
 image = cv2.imread("dog.jpg")
 ```
-```
+```py
 # SOBEL EDGE DETECTOR:
 
 # SOBEL-X:
@@ -98,7 +98,7 @@ plt.xticks([])
 plt.yticks([])
 plt.show()
 ```
-```
+```py
 # LAPLACIAN EDGE DETECTOR:
 
 import cv2
@@ -118,7 +118,7 @@ plt.xticks([])
 plt.yticks([])
 plt.show()
 ```
-```
+```py
 # CANNY EDGE DETECTOR:
 
 import cv2
@@ -139,42 +139,27 @@ plt.yticks([])
 plt.show()
 ```
 ## Output:
-### SOBEL EDGE DETECTOR
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-### LAPLACIAN EDGE DETECTOR
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-### CANNY EDGE DETECTOR
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-![d6](https://user-images.githubusercontent.com/94525786/232544081-8b02159c-37e3-4bbd-b2bd-8343f98b774a.png)
-
-![d4](https://user-images.githubusercontent.com/94525786/232544139-1c5c1982-f9a6-481f-bd64-90e144ad1f8c.png)
-
+### INPUT IMAGE:
 ![d1](https://user-images.githubusercontent.com/94525786/232544206-0fb9e8ac-e2e1-4675-89f9-8977592861f9.png)
 
+
+### SOBEL EDGE DETECTOR:
+### SOBEL-X:
 ![d2](https://user-images.githubusercontent.com/94525786/232544225-e7b77cb3-63f4-4ae6-8ab7-86b9a196ebcc.png)
+
+### SOBEL-Y:
 
 ![d3](https://user-images.githubusercontent.com/94525786/232544249-b9df9178-5042-4613-8197-720f361cec79.png)
 
+### SOBEL-XY:
+![d4](https://user-images.githubusercontent.com/94525786/232544139-1c5c1982-f9a6-481f-bd64-90e144ad1f8c.png)
+
+### LAPLACIAN EDGE DETECTOR:
 ![d5](https://user-images.githubusercontent.com/94525786/232544328-52654af0-b642-4df1-9029-0294a4ad1e5f.png)
+
+### CANNY EDGE DETECTOR:
+![d6](https://user-images.githubusercontent.com/94525786/232544081-8b02159c-37e3-4bbd-b2bd-8343f98b774a.png)
+
 
 ## Result:
 Thus the edges are detected using Sobel, Laplacian, and Canny edge detectors.
