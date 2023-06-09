@@ -1,11 +1,12 @@
-# Edge-Detection
-## Aim:
+## Ex-7  Edge-Detection
+**Date: 12/04/2023**
+### Aim:
 To perform edge detection using Sobel, Laplacian, and Canny edge detectors.
 
-## Software Required:
+### Software Required:
 Anaconda - Python 3.7
 
-## Algorithm:
+### Algorithm:
 ### Step 1:
 Import the required packages for further process.
 
@@ -21,7 +22,7 @@ Apply the respective filters -Sobel,Laplacian edge dectector and Canny edge dect
 ### Step 5:
 Display the filtered image using plot and imshow.
  
-## Program:
+### Program:
 ```
 Name : Silambarasan K
 Reg No : 212221230101
