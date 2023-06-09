@@ -1,5 +1,5 @@
 ## Ex-7  Edge-Detection
-**Date: 12/04/2023**
+
 ### Aim:
 To perform edge detection using Sobel, Laplacian, and Canny edge detectors.
 
